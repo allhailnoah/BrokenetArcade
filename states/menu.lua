@@ -1,19 +1,23 @@
-menu = {}
+menustate = {}
 
-function menu.kbd()
+function menustate.handleEscape()
+    love.event.quit()
+end
+
+function menustate.kbd()
     return false
 end
 
-function menu.mouse()
+function menustate.mouse()
     return false
 end
 
-function menu.draw()
+function menustate.draw()
     
 end
 
-function menu.update(dt)
+function menustate.update(dt)
     
 end
 
-return menu
+return menustate
