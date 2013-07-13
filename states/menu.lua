@@ -1,5 +1,9 @@
 menustate = {}
 
+function menustate.init()
+    
+end
+
 function menustate.handleEscape()
     love.event.quit()
 end

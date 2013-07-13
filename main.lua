@@ -2,7 +2,10 @@ require "port"
 require "gsts"
 
 function love.load()
-    gst = menust
+    for k,v in pairs(stts) do
+        v.init()
+    end
+    gst = stts["menu"]
     paused = false
     pausedopac = 0
     maxframe = 0.2

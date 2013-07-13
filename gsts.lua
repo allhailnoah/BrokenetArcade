@@ -1,1 +1,2 @@
-menust = require "states.menu"
+stts = {}
+stts["menu"] = require "states.menu"
